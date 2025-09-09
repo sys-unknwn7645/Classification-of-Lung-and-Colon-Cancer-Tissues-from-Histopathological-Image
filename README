@@ -1,0 +1,9 @@
+Part of IE7860 Intelligent Analytics Course Work
+
+Abstract
+Cancer is a leading cause of morbidity and mortality worldwide. Among various types of cancers, the lung and colon variants are the most common and deadliest ones. 
+One of the best ways to tackle cancer is to detect cancer tissues through histopathological images in the early stage, where effective treatment can be implemented. 
+Analyzing tissue samples with human eyes one-by-one is both extremely time consuming and prone to error. Our objective is to construct a custom CNN (Convolutional Neural Network) model, a hyper-tuned CNN model, and to modify existing CNN ResNet50 architecture with transfer learning. 
+It allows us to employ max pooling and convolution to handle the microscopic cancer tissue data found in the image. As a result, our CNN models will classify cancer tissues of different classes from histopathological images in an accurate and timely manner. It can be utilized in the medical field in support of medical workers and patients to fight cancer and increase survival rate. 
+To facilitate this, we have collected a dataset of lung and colon cancer histopathological images. This dataset contains 25,000 images from 5 different classes of tissue and each image is 768 x 768 pixels in size. Based on this dataset, the network is fine-tuned on hyper-parameters learning rate and the image size. 
+In this report, we show that the proposed method yields a well performance on classifying histopathological images.
